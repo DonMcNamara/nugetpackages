@@ -2,20 +2,18 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>windowpad</id>
-    <title>__TITLE__</title>
-    <version>__VERSION__</version>
-    <authors>__AUTHORS__</authors>
+    <title>WindowPad</title>
+    <version>1.60</version>
+    <authors>Lexikos</authors>
     <owners>Anthony Mastrean</owners>
-    <summary>__SUMMARY__</summary>
-    <description>__DESCRIPTION__</description>
-    <projectUrl>__PROJECTURL__</projectUrl>
-    <tags>__TAG__ chocolatey admin</tags>
-    <licenseUrl>__LICENSEURL__</licenseUrl>
+    <description>Uses a virtual "pad" to arrange windows. Original concept based on HiRes Screen Splitter by JOnGliko. Use the Numpad or your own custom layout to move and resize a window to fill the appropriate section of the screen.</description>
+    <projectUrl>http://www.autohotkey.com/forum/topic21703.html</projectUrl>
+    <tags>autohotkey windows chocolatey admin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/windowpad/windowpad/windowpad.ext</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/windowpad/windowpad/windowpad.ico</iconUrl>
+    <dependencies>
+      <dependency id="autohotkey" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
