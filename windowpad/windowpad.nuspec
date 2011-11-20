@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>windowpad</id>
-    <title>WindowPad</title>
     <version>1.60</version>
+    <title>WindowPad</title>
     <authors>Lexikos</authors>
     <owners>Anthony Mastrean</owners>
-    <description>Uses a virtual "pad" to arrange windows. Original concept based on HiRes Screen Splitter by JOnGliko. Use the Numpad or your own custom layout to move and resize a window to fill the appropriate section of the screen.</description>
     <projectUrl>http://www.autohotkey.com/forum/topic21703.html</projectUrl>
-    <tags>autohotkey windows chocolatey admin</tags>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/windowpad/windowpad/windowpad.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Uses a virtual "pad" to arrange windows. Original concept based on HiRes Screen Splitter by JOnGliko. Use the Numpad or your own custom layout to move and resize a window to fill the appropriate section of the screen.</description>
+    <tags>autohotkey windows chocolatey admin</tags>
     <dependencies>
       <dependency id="autohotkey" />
     </dependencies>
