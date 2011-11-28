@@ -15,9 +15,11 @@ try
 { 
     $name    = 'minecraft'
     $tools   = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
+    
     $content = Join-Path (Split-path $tools) 'content'
+    New-Item $content -Type Directory
 
-    Get-ChocolateyWebFile "$name" "$content" 'https://s3.amazonaws.com/MinecraftDownload/launcher/Minecraft.exe'
+    Get-ChocolateyWebFile "$name" "$content\Minecraft.exe" 'https://s3.amazonaws.com/MinecraftDownload/launcher/Minecraft.exe'
 
     $guid = [guid]::NewGuid()
     
