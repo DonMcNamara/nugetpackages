@@ -4,7 +4,7 @@
     <id>minecraft</id>
     <title>Minecraft</title>
     <version>1.0.0</version>
-    <authors>Markus Persson</authors>
+    <authors>Mojang</authors>
     <owners>Anthony Mastrean</owners>
     <description>Minecraft is a game about placing blocks to build anything you can imagine. At night monsters come out, make sure to build a shelter before that happens. It also has music by C418!</description>
     <projectUrl>http://www.minecraft.net/</projectUrl>
