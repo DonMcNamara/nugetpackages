@@ -4,10 +4,12 @@ try
 
     $tools   = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
     $content = Join-Path (Split-Path $tools) 'content'
-    $bat     = Join-Path $content 'wim2vhd.bat'
+    $bat     = "$ENV:CHOCOLATEYINSTALL\bin\wim2vhd.bat"
 
-    "@echo off
-    cscript ""$content\wim2vhd.wsf"" %*" | Out-File $bat -encoding ASCII
+@"
+@echo off
+cscript "$content\wim2vhd.wsf" %*
+"@ | Out-File $bat -encoding ASCII
     
     Write-ChocolateySuccess "$name"
 } 
