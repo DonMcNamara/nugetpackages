@@ -2,17 +2,16 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>wim2vhd</id>
-    <title>__TITLE__</title>
-    <version>__VERSION__</version>
-    <authors>__AUTHORS__</authors>
+    <title>Windows(R) Image to Virtual Hard Disk (WIM2VHD) Converter</title>
+    <version>6.1.7600.0</version>
+    <authors>Mike Kol</authors>
     <owners>Anthony Mastrean</owners>
-    <summary>__SUMMARY__</summary>
-    <description>__DESCRIPTION__</description>
-    <projectUrl>__PROJECTURL__</projectUrl>
-    <tags>__TAG__ chocolatey admin</tags>
-    <licenseUrl>__LICENSEURL__</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/wim2vhd/wim2vhd/wim2vhd.ext</iconUrl>-->
+    <description>The Windows(R) Image to Virtual Hard Disk (WIM2VHD) command-line tool allows you to create sysprepped VHD images from any Windows 7 installation source. VHDs created by WIM2VHD will boot directly to the Out Of Box Experience, ready for your first-use customizations. You can also automate the OOBE by supplying your own unattend.xml file, making the possibilities limitless. Fresh squeezed, organically grown, free-range VHDs - just like Mom used to make - that work with Virtual PC, Virtual Server, Microsoft Hyper-V, and Windows 7's new Native VHD-Boot functionality! </description>
+    <projectUrl>http://archive.msdn.microsoft.com/wim2vhd</projectUrl>
+    <tags>vhd sysprep wim imagex</tags>
+    <licenseUrl>http://msdn.microsoft.com/en-us/library/ff648068.aspx</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/wim2vhd/wim2vhd/wim2vhd.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
