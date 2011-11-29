@@ -1,22 +1,21 @@
 <?xml version="1.0"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>wim2vhd</id>
-    <title>Windows(R) Image to Virtual Hard Disk (WIM2VHD) Converter</title>
     <version>6.1.7600.0</version>
+    <title>Windows(R) Image to Virtual Hard Disk (WIM2VHD) Converter</title>
     <authors>Mike Kol</authors>
     <owners>Anthony Mastrean</owners>
-    <description>The Windows(R) Image to Virtual Hard Disk (WIM2VHD) command-line tool allows you to create sysprepped VHD images from any Windows 7 installation source. VHDs created by WIM2VHD will boot directly to the Out Of Box Experience, ready for your first-use customizations. You can also automate the OOBE by supplying your own unattend.xml file, making the possibilities limitless. Fresh squeezed, organically grown, free-range VHDs - just like Mom used to make - that work with Virtual PC, Virtual Server, Microsoft Hyper-V, and Windows 7's new Native VHD-Boot functionality! </description>
-    <projectUrl>http://archive.msdn.microsoft.com/wim2vhd</projectUrl>
-    <tags>vhd sysprep wim imagex</tags>
     <licenseUrl>http://msdn.microsoft.com/en-us/library/ff648068.aspx</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectUrl>http://archive.msdn.microsoft.com/wim2vhd</projectUrl>
     <iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/wim2vhd/wim2vhd/wim2vhd.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The Windows(R) Image to Virtual Hard Disk (WIM2VHD) command-line tool allows you to create sysprepped VHD images from any Windows 7 installation source. VHDs created by WIM2VHD will boot directly to the Out Of Box Experience, ready for your first-use customizations. You can also automate the OOBE by supplying your own unattend.xml file, making the possibilities limitless. Fresh squeezed, organically grown, free-range VHDs - just like Mom used to make - that work with Virtual PC, Virtual Server, Microsoft Hyper-V, and Windows 7's new Native VHD-Boot functionality!</description>
+    <tags>vhd sysprep wim imagex</tags>
   </metadata>
   <files>
+    <file src="content\imagex.exe" target="content\imagex.exe" />
+    <file src="content\WIM2VHD.wsf" target="content\WIM2VHD.wsf" />
     <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
   </files>
 </package>
