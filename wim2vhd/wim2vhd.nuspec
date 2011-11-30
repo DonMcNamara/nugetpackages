@@ -4,7 +4,7 @@
     <id>wim2vhd</id>
     <version>6.1.7600.0</version>
     <title>Windows(R) Image to Virtual Hard Disk (WIM2VHD) Converter</title>
-    <authors>Mike Kol</authors>
+    <authors>Mike Kolitz</authors>
     <owners>Anthony Mastrean</owners>
     <licenseUrl>http://msdn.microsoft.com/en-us/library/ff648068.aspx</licenseUrl>
     <projectUrl>http://archive.msdn.microsoft.com/wim2vhd</projectUrl>
