@@ -34,6 +34,8 @@ try
     Create-Shortcut
     
     # Add the necessary registry key/values
+    # The reg key on my desktop is: 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-3693514532-2603672733-3282153189-1001'
+    #
     $gamesExReg = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\GameUX\S-1-5-21-1069610301-324996817-3984272044-1000"
     $gameReg    = "$gamesExReg\{$guid}"
     New-Item "$gameReg"
