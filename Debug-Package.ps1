@@ -24,4 +24,4 @@ Clear-Host
 $name = Split-Path $pwd -leaf
 Remove-Item "$ENV:CHOCOLATEYINSTALL\lib\$name*" -force -recurse
 nuget pack "$name.nuspec"
-cinst "$name" -source "$pwd"
+cinst $name -source "$pwd"
