@@ -2,12 +2,12 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>visualcplusplusruntime2010</id>
-    <title>Microsoft Visual C++ 2010 Redistributable Package (x86)</title>
+    <title>Microsoft Visual C++ 2010 Redistributable Package (x64)</title>
     <version>10.0.30319.1</version>
     <authors>Microsoft</authors>
     <owners>Anthony Mastrean</owners>
     <description>The Microsoft Visual C++ 2010 Redistributable Package installs runtime components of Visual C++ Libraries required to run applications developed with Visual C++ on a computer that does not have Visual C++ 2010 installed.</description>
-    <projectUrl>http://www.microsoft.com/download/en/details.aspx?id=5555</projectUrl>
+    <projectUrl>http://www.microsoft.com/download/en/details.aspx?id=14632</projectUrl>
     <tags>microsoft visual c++ runtime</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/visualcplusplusruntime2010/visualcplusplusruntime2010/visualcplusplusruntime2010.ext</iconUrl>-->
