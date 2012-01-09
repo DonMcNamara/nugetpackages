@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
-    <id>visualcplusplusruntime2008</id>
-    <title>Microsoft Visual C++ 2008 Redistributable Package (x86)</title>
+    <id>visualcplusplusruntime2008.x64</id>
+    <title>Microsoft Visual C++ 2008 Redistributable Package (x64)</title>
     <version>9.0.21022.8</version>
     <authors>Microsoft</authors>
     <owners>Anthony Mastrean</owners>
-    <description>The Microsoft Visual C++ 2008 Redistributable Package (x86) installs runtime components of Visual C++ Libraries required to run applications developed with Visual C++ on a computer that does not have Visual C++ 2008 installed.</description>
-    <projectUrl>http://www.microsoft.com/download/en/details.aspx?id=29</projectUrl>
+    <description>The Microsoft Visual C++ 2008 Redistributable Package (x64) installs runtime components of Visual C++ Libraries required to run 64-bit applications developed with Visual C++ on a computer that does not have Visual C++ 2008 installed.</description>
+    <projectUrl>http://www.microsoft.com/download/en/details.aspx?id=15336</projectUrl>
     <tags>microsoft visual c++ runtime</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/visualcplusplusruntime2005/visualcplusplusruntime2005/visualcplusplusruntime2005.ext</iconUrl>-->
