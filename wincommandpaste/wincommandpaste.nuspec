@@ -8,16 +8,17 @@
     <owners>Anthony Mastrean</owners>
     <summary>Paste into any Windows console (command line and PowerShell) with CTRL+V!</summary>
     <description>You can set the edit mode of your console to allow right-click pasting. Or use the built-in key sequence: ALT+Space, E, P. Or, you can install this package and get an AutoHotKey script that makes CTRL+V work in any console window.</description>
-    <projectUrl>__PROJECTURL__</projectUrl>
-    <tags>__TAG__</tags>
-    <licenseUrl>__LICENSEURL__</licenseUrl>
+    <projectUrl>http://www.howtogeek.com/howto/25590/how-to-enable-ctrlv-for-pasting-in-the-windows-command-prompt/</projectUrl>
+    <tags>autohotkey command windows prompt console paste clipboard</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/wincommandpaste/wincommandpaste/wincommandpaste.ext</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/wincommandpaste/wincommandpaste/content/wincommandpaste.ico</iconUrl>
+    <dependencies>
+      <dependency id="autohotkey" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    <file src="content\wincommandpaste.ahk" target="content\wincommandpaste.ahk" />
+    <file src="content\wincommandpaste.ico" target="content\wincommandpaste.ico" />
   </files>
 </package>
