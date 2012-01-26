@@ -20,7 +20,7 @@ SetWorkingDir %A_ScriptDir% ;Ensures a consistent starting directory.
 ;======================================================================
 ;Now give it a sexy icon!
 ;======================================================================
-Menu, Tray, Icon, commandpaste.ico, 
+Menu, Tray, Icon, wincommandpaste.ico, 
 Menu, Tray, Tip, Press CTRL+V to paste in any console window!
 
 ;==================================================
