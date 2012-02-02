@@ -2,22 +2,23 @@
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>winperamdisk</id>
-    <title>__TITLE__</title>
-    <version>__VERSION__</version>
-    <authors>__AUTHORS__</authors>
+    <title>Create a Bootable Windows PE RAM Disk (ISO)</title>
+    <version>0.0.1</version>
+    <authors>Anthony Mastrean</authors>
     <owners>Anthony Mastrean</owners>
-    <summary>__SUMMARY__</summary>
-    <description>__DESCRIPTION__</description>
-    <projectUrl>__PROJECTURL__</projectUrl>
-    <tags>__TAG__</tags>
-    <licenseUrl>__LICENSEURL__</licenseUrl>
+    <summary>This is a scripted version of the instructions at http://goo.gl/FtQvU</summary>
+    <description>This method enables you to boot directly into memory and assigns the drive letter X, which does not correspond to the media (USB flash drive or CD-ROM) from which you booted. Ensure that you have sufficient memory to support the size of your Windows PE image plus any additional memory requirements, for example, if you plan on running any customized applications that need additional working memory.</description>
+    <projectUrl>http://technet.microsoft.com/en-us/library/cc749311(WS.10).aspx</projectUrl>
+    <tags>windows winpe wim aik</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/winperamdisk/winperamdisk/winperamdisk.ext</iconUrl>-->
+    <!--<iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/__NAME__/__NAME__/__NAME__.ext</iconUrl>-->
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
   </metadata>
   <files>
     <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+    <file src="content\newpedisk.bat" target="content\newpedisk.bat" />
+    <file src="content\newpedisk-amd64.bat" target="content\newpedisk-amd64.bat" />
   </files>
 </package>
