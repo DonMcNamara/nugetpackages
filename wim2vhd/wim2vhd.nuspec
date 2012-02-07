@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>wim2vhd</id>
-    <version>6.1.7600.0</version>
+    <version>6.1.7600.1</version>
     <title>Windows(R) Image to Virtual Hard Disk (WIM2VHD) Converter</title>
     <authors>Mike Kolitz</authors>
     <owners>Anthony Mastrean</owners>
@@ -14,8 +14,9 @@
     <tags>vhd sysprep wim imagex</tags>
   </metadata>
   <files>
-    <file src="content\imagex.exe" target="content\imagex.exe" />
     <file src="content\WIM2VHD.wsf" target="content\WIM2VHD.wsf" />
+    <file src="tools\x86\imagex.exe" target="tools\x86\imagex.exe" />
+    <file src="tools\x64\imagex.exe" target="tools\x64\imagex.exe" />
     <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
   </files>
 </package>
