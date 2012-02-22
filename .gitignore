@@ -7,3 +7,4 @@ obj
 *.rc
 *.res
 *.suo
+*.user
