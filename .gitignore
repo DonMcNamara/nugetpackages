@@ -1,4 +1,9 @@
+bin
+obj
+
 *.nupkg
+
 *.h
 *.rc
 *.res
+*.suo
