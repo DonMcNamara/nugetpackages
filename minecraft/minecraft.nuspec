@@ -11,13 +11,8 @@
     <tags>minecraft chocolatey admin</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://github.com/AnthonyMastrean/nugetpackages/raw/minecraft/minecraft/minecraft.ico</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
   </metadata>
   <files>
     <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
-    <file src="tools\GameuxInstallHelper.dll" target="tools\GameuxInstallHelper.dll" />
-    <file src="content\Minecraft.dll" target="content\Minecraft.dll" />
   </files>
 </package>
