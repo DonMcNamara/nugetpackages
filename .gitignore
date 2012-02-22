@@ -1,10 +1,11 @@
 bin
 obj
+ipch
 
 *.nupkg
 
-*.h
-*.rc
-*.res
 *.suo
 *.user
+*.sdf
+
+minecraft/content/Minecraft.exe
